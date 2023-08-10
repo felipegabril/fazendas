@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 1%;
+    background-color: darkolivegreen;
+}
+.fazenda__maquinarios{
+    padding: 2%;
+}
+
+.trator1__menu__links{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+h1{
+    padding: 1%;
+    color: white;
+    font-size: 35px;
+}
+p{
+    color: aliceblue;
+    font-size: 25px;
+}
+
+.casas__fazendas__menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.casas__fazendas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10%;
+}
+
+.casas__fazendas__produtos{
+    display: flex;
+    gap: 10%;
+}
+
+.img__fazendas{
+    width: 300px;
+    height: 250px;
+}
+.fazenda__imagem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
